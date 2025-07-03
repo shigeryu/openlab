@@ -41,8 +41,8 @@ const alumniData = [
         year: 2024,
         course: "master",
         attendance: {
-            openlab: "pending",
-            alumni: "pending"
+            openlab: "absent",
+            alumni: "absent"
         }
     },
     {
@@ -164,8 +164,8 @@ const alumniData = [
         year: 2023,
         course: "master",
         attendance: {
-            openlab: "pending",
-            alumni: "pending"
+            openlab: "attending",
+            alumni: "attending"
         }
     },
     {
@@ -186,8 +186,8 @@ const alumniData = [
         year: 2023,
         course: "master",
         attendance: {
-            openlab: "pending",
-            alumni: "pending"
+            openlab: "absent",
+            alumni: "absent"
         }
     },
     {
@@ -219,8 +219,8 @@ const alumniData = [
         year: 2023,
         course: "master",
         attendance: {
-            openlab: "pending",
-            alumni: "pending"
+            openlab: "attending",
+            alumni: "attending"
         }
     },
     {
@@ -242,8 +242,8 @@ const alumniData = [
         year: 2023,
         course: "bachelor",
         attendance: {
-            openlab: "pending",
-            alumni: "pending"
+            openlab: "attending",
+            alumni: "absent"
         }
     },
     {
@@ -301,6 +301,17 @@ const alumniData = [
             alumni: "attending"
         }
     },
+    {
+        id: 56,
+        nameJa: "山下 貴仁",
+        nameEn: "Takahito Yamashita",
+        year: 2023,
+        course: "master",
+        attendance: {
+            openlab: "attending",
+            alumni: "attending"
+        }
+    },
     // 2022年度 修士課程
     {
         id: 1,
@@ -320,8 +331,8 @@ const alumniData = [
         year: 2022,
         course: "master",
         attendance: {
-            openlab: "pending",
-            alumni: "pending"
+            openlab: "attending",
+            alumni: "attending"
         }
     },
     {
@@ -331,8 +342,8 @@ const alumniData = [
         year: 2022,
         course: "master",
         attendance: {
-            openlab: "pending",
-            alumni: "pending"
+            openlab: "attending",
+            alumni: "attending"
         }
     },
     {
@@ -342,8 +353,8 @@ const alumniData = [
         year: 2022,
         course: "master",
         attendance: {
-            openlab: "pending",
-            alumni: "pending"
+            openlab: "attending",
+            alumni: "attending"
         }
     },
     {
@@ -353,8 +364,8 @@ const alumniData = [
         year: 2022,
         course: "master",
         attendance: {
-            openlab: "pending",
-            alumni: "pending"
+            openlab: "absent",
+            alumni: "absent"
         }
     },
     {
@@ -364,8 +375,8 @@ const alumniData = [
         year: 2022,
         course: "master",
         attendance: {
-            openlab: "pending",
-            alumni: "pending"
+            openlab: "attending",
+            alumni: "attending"
         }
     },
     // 2022年度 学士課程
@@ -421,8 +432,8 @@ const alumniData = [
         year: 2021,
         course: "master",
         attendance: {
-            openlab: "pending",
-            alumni: "pending"
+            openlab: "attending",
+            alumni: "attending"
         }
     },
     // 2021年度 学士課程
@@ -444,8 +455,8 @@ const alumniData = [
         year: 2021,
         course: "bachelor",
         attendance: {
-            openlab: "pending",
-            alumni: "pending"
+            openlab: "absent",
+            alumni: "absent"
         }
     },
     {
@@ -466,8 +477,8 @@ const alumniData = [
         year: 2021,
         course: "bachelor",
         attendance: {
-            openlab: "pending",
-            alumni: "pending"
+            openlab: "attending",
+            alumni: "attending"
         }
     },
     // 2020年度 修士課程
@@ -490,8 +501,8 @@ const alumniData = [
         year: 2020,
         course: "bachelor",
         attendance: {
-            openlab: "pending",
-            alumni: "pending"
+            openlab: "attending",
+            alumni: "attending"
         }
     },
     {
@@ -602,8 +613,8 @@ const alumniData = [
         year: 2019,
         course: "bachelor",
         attendance: {
-            openlab: "pending",
-            alumni: "pending"
+            openlab: "absent",
+            alumni: "absent"
         }
     },
     {
