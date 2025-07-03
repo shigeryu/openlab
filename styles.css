@@ -455,4 +455,333 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
     background: rgba(255, 255, 255, 0.5);
+}
+
+/* 調整さん連携ボタン */
+.chouseisan-sync-btn {
+    background: linear-gradient(135deg, #00b894, #00a085);
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 184, 148, 0.3);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.chouseisan-sync-btn:hover {
+    background: linear-gradient(135deg, #00a085, #008f75);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 184, 148, 0.4);
+}
+
+.chouseisan-sync-btn:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 10px rgba(0, 184, 148, 0.3);
+}
+
+/* 手動データ入力ボタン */
+.manual-input-btn {
+    background: linear-gradient(135deg, #74b9ff, #0984e3) !important;
+    box-shadow: 0 4px 15px rgba(116, 185, 255, 0.3) !important;
+}
+
+.manual-input-btn:hover {
+    background: linear-gradient(135deg, #0984e3, #0770cc) !important;
+    box-shadow: 0 6px 20px rgba(116, 185, 255, 0.4) !important;
+}
+
+.manual-input-btn:active {
+    box-shadow: 0 2px 10px rgba(116, 185, 255, 0.3) !important;
+}
+
+/* 手動入力モーダル */
+.manual-input-info {
+    background: #e3f2fd;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    border-left: 4px solid #2196f3;
+}
+
+.manual-input-info p {
+    margin: 0.25rem 0;
+    color: #1565c0;
+    font-size: 0.9rem;
+}
+
+.manual-input-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.manual-input-buttons .bulk-btn {
+    flex: 1;
+    max-width: 200px;
+}
+
+/* ローディングインジケーター */
+.loading-indicator {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.loading-content {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 2rem;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.loading-spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #00b894;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin: 0 auto 1rem auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.loading-text {
+    color: #2d3436;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+/* エラーメッセージ */
+.error-message {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: #e74c3c;
+    color: white;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 8px 25px rgba(231, 76, 60, 0.3);
+    z-index: 9998;
+    max-width: 400px;
+    animation: slideInRight 0.3s ease;
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.error-content {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.error-content button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 0.25rem;
+    border-radius: 3px;
+    transition: background 0.2s ease;
+}
+
+.error-content button:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* 更新結果モーダル */
+.update-results-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.modal-content {
+    background: white;
+    border-radius: 15px;
+    max-width: 600px;
+    max-height: 80vh;
+    overflow-y: auto;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    animation: scaleIn 0.3s ease;
+}
+
+@keyframes scaleIn {
+    from {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.modal-header {
+    padding: 1.5rem;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, #00b894, #00a085);
+    color: white;
+    border-radius: 15px 15px 0 0;
+}
+
+.modal-header h3 {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.modal-close {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 5px;
+    transition: background 0.2s ease;
+}
+
+.modal-close:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.modal-body {
+    padding: 1.5rem;
+}
+
+.update-summary {
+    background: #f8f9fa;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.update-summary p {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #2d3436;
+}
+
+.update-details {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.update-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background: #fafafa;
+}
+
+.update-name {
+    font-weight: 600;
+    color: #2d3436;
+    margin-bottom: 0.5rem;
+    font-size: 1.05rem;
+}
+
+.update-changes {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.change-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+}
+
+.change-label {
+    min-width: 80px;
+    font-weight: 500;
+    color: #636e72;
+}
+
+.status-change {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.status-change .fas.fa-arrow-right {
+    color: #74b9ff;
+    font-size: 0.8rem;
+}
+
+/* レスポンシブ対応 */
+@media (max-width: 768px) {
+    .chouseisan-sync-btn {
+        padding: 0.6rem 1rem;
+        font-size: 0.8rem;
+    }
+    
+    .modal-content {
+        margin: 1rem;
+        max-width: calc(100% - 2rem);
+    }
+    
+    .change-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.25rem;
+    }
+    
+    .change-label {
+        min-width: auto;
+    }
+    
+    .update-changes {
+        gap: 0.75rem;
+    }
 } 
