@@ -302,7 +302,7 @@ const alumniData = [
         }
     },
     {
-        id: 56,
+        id: 57,
         nameJa: "山下 貴仁",
         nameEn: "Takahito Yamashita",
         year: 2023,
