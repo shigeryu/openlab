@@ -153,8 +153,8 @@ const alumniData = [
         year: 2023,
         course: "master",
         attendance: {
-            openlab: "attending",
-            alumni: "attending"
+            openlab: "pending",
+            alumni: "pending"
         }
     },
     {
@@ -164,7 +164,7 @@ const alumniData = [
         year: 2023,
         course: "master",
         attendance: {
-            openlab: "attending",
+            openlab: "pending",
             alumni: "pending"
         }
     },
@@ -175,8 +175,8 @@ const alumniData = [
         year: 2023,
         course: "master",
         attendance: {
-            openlab: "attending",
-            alumni: "attending"
+            openlab: "pending",
+            alumni: "pending"
         }
     },
     {
@@ -187,7 +187,7 @@ const alumniData = [
         course: "master",
         attendance: {
             openlab: "pending",
-            alumni: "attending"
+            alumni: "pending"
         }
     },
     {
@@ -197,8 +197,8 @@ const alumniData = [
         year: 2023,
         course: "master",
         attendance: {
-            openlab: "attending",
-            alumni: "attending"
+            openlab: "pending",
+            alumni: "pending"
         }
     },
     {
@@ -208,8 +208,8 @@ const alumniData = [
         year: 2023,
         course: "master",
         attendance: {
-            openlab: "attending",
-            alumni: "absent"
+            openlab: "pending",
+            alumni: "pending"
         }
     },
     {
@@ -219,8 +219,8 @@ const alumniData = [
         year: 2023,
         course: "master",
         attendance: {
-            openlab: "absent",
-            alumni: "attending"
+            openlab: "pending",
+            alumni: "pending"
         }
     },
     {
@@ -230,7 +230,7 @@ const alumniData = [
         year: 2023,
         course: "master",
         attendance: {
-            openlab: "attending",
+            openlab: "pending",
             alumni: "pending"
         }
     },
@@ -253,8 +253,8 @@ const alumniData = [
         year: 2023,
         course: "bachelor",
         attendance: {
-            openlab: "attending",
-            alumni: "attending"
+            openlab: "pending",
+            alumni: "pending"
         }
     },
     {
@@ -286,7 +286,7 @@ const alumniData = [
         year: 2023,
         course: "bachelor",
         attendance: {
-            openlab: "attending",
+            openlab: "pending",
             alumni: "pending"
         }
     },
@@ -297,8 +297,8 @@ const alumniData = [
         year: 2023,
         course: "bachelor",
         attendance: {
-            openlab: "pending",
-            alumni: "pending"
+            openlab: "attending",
+            alumni: "attending"
         }
     },
     // 2022年度 修士課程
@@ -309,8 +309,8 @@ const alumniData = [
         year: 2022,
         course: "master",
         attendance: {
-            openlab: "attending",
-            alumni: "attending"
+            openlab: "pending",
+            alumni: "pending"
         }
     },
     {
@@ -320,8 +320,8 @@ const alumniData = [
         year: 2022,
         course: "master",
         attendance: {
-            openlab: "attending",
-            alumni: "attending"
+            openlab: "pending",
+            alumni: "pending"
         }
     },
     {
@@ -332,7 +332,7 @@ const alumniData = [
         course: "master",
         attendance: {
             openlab: "pending",
-            alumni: "attending"
+            alumni: "pending"
         }
     },
     {
@@ -342,7 +342,7 @@ const alumniData = [
         year: 2022,
         course: "master",
         attendance: {
-            openlab: "attending",
+            openlab: "pending",
             alumni: "pending"
         }
     },
@@ -353,8 +353,8 @@ const alumniData = [
         year: 2022,
         course: "master",
         attendance: {
-            openlab: "absent",
-            alumni: "attending"
+            openlab: "pending",
+            alumni: "pending"
         }
     },
     {
@@ -364,8 +364,8 @@ const alumniData = [
         year: 2022,
         course: "master",
         attendance: {
-            openlab: "attending",
-            alumni: "attending"
+            openlab: "pending",
+            alumni: "pending"
         }
     },
     // 2022年度 学士課程
@@ -387,8 +387,8 @@ const alumniData = [
         year: 2022,
         course: "bachelor",
         attendance: {
-            openlab: "attending",
-            alumni: "attending"
+            openlab: "pending",
+            alumni: "pending"
         }
     },
     // 2021年度 修士課程
@@ -400,7 +400,7 @@ const alumniData = [
         course: "master",
         attendance: {
             openlab: "attending",
-            alumni: "pending"
+            alumni: "attending"
         }
     },
     {
@@ -410,8 +410,8 @@ const alumniData = [
         year: 2021,
         course: "master",
         attendance: {
-            openlab: "attending",
-            alumni: "attending"
+            openlab: "pending",
+            alumni: "pending"
         }
     },
     {
@@ -421,8 +421,8 @@ const alumniData = [
         year: 2021,
         course: "master",
         attendance: {
-            openlab: "absent",
-            alumni: "attending"
+            openlab: "pending",
+            alumni: "pending"
         }
     },
     // 2021年度 学士課程
@@ -433,8 +433,8 @@ const alumniData = [
         year: 2021,
         course: "bachelor",
         attendance: {
-            openlab: "attending",
-            alumni: "attending"
+            openlab: "pending",
+            alumni: "pending"
         }
     },
     {
@@ -455,8 +455,8 @@ const alumniData = [
         year: 2021,
         course: "bachelor",
         attendance: {
-            openlab: "attending",
-            alumni: "absent"
+            openlab: "pending",
+            alumni: "pending"
         }
     },
     {
@@ -466,7 +466,7 @@ const alumniData = [
         year: 2021,
         course: "bachelor",
         attendance: {
-            openlab: "attending",
+            openlab: "pending",
             alumni: "pending"
         }
     },
@@ -478,8 +478,8 @@ const alumniData = [
         year: 2020,
         course: "master",
         attendance: {
-            openlab: "attending",
-            alumni: "attending"
+            openlab: "pending",
+            alumni: "pending"
         }
     },
     // 2020年度 学士課程
@@ -501,8 +501,8 @@ const alumniData = [
         year: 2020,
         course: "bachelor",
         attendance: {
-            openlab: "attending",
-            alumni: "attending"
+            openlab: "pending",
+            alumni: "pending"
         }
     },
     {
@@ -536,8 +536,8 @@ const alumniData = [
         year: 2019,
         course: "bachelor",
         attendance: {
-            openlab: "attending",
-            alumni: "attending"
+            openlab: "pending",
+            alumni: "pending"
         }
     },
     {
@@ -548,7 +548,7 @@ const alumniData = [
         course: "bachelor",
         attendance: {
             openlab: "pending",
-            alumni: "attending"
+            alumni: "pending"
         }
     },
     {
@@ -558,7 +558,7 @@ const alumniData = [
         year: 2019,
         course: "bachelor",
         attendance: {
-            openlab: "attending",
+            openlab: "pending",
             alumni: "pending"
         }
     },
@@ -569,8 +569,8 @@ const alumniData = [
         year: 2019,
         course: "bachelor",
         attendance: {
-            openlab: "attending",
-            alumni: "attending"
+            openlab: "pending",
+            alumni: "pending"
         }
     },
     {
@@ -580,8 +580,8 @@ const alumniData = [
         year: 2019,
         course: "bachelor",
         attendance: {
-            openlab: "absent",
-            alumni: "attending"
+            openlab: "pending",
+            alumni: "pending"
         }
     },
     {
@@ -591,7 +591,7 @@ const alumniData = [
         year: 2019,
         course: "bachelor",
         attendance: {
-            openlab: "attending",
+            openlab: "pending",
             alumni: "pending"
         }
     },
@@ -613,8 +613,8 @@ const alumniData = [
         year: 2019,
         course: "bachelor",
         attendance: {
-            openlab: "attending",
-            alumni: "absent"
+            openlab: "pending",
+            alumni: "pending"
         }
     },
     {
@@ -624,8 +624,8 @@ const alumniData = [
         year: 2019,
         course: "bachelor",
         attendance: {
-            openlab: "attending",
-            alumni: "attending"
+            openlab: "pending",
+            alumni: "pending"
         }
     }
 ];
@@ -966,5 +966,377 @@ function loadFromLocalStorage() {
         alumniData.splice(0, alumniData.length, ...loadedData);
         renderAlumni();
         updateStats();
+    }
+}
+
+// 調整さん連携機能
+const CHOUSEISAN_URL = 'https://chouseisan.com/s?h=964f3514cc0f4a01bfc6d02447c3882e';
+
+// 調整さんからデータを取得する関数
+async function fetchChousesanData() {
+    try {
+        // CORS制限を回避するためのプロキシサービスを使用
+        const proxyUrl = 'https://api.allorigins.win/get?url=';
+        const targetUrl = encodeURIComponent(CHOUSEISAN_URL);
+        
+        showLoadingIndicator('調整さんからデータを取得中...');
+        
+        const response = await fetch(proxyUrl + targetUrl);
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        
+        const data = await response.json();
+        const htmlContent = data.contents;
+        
+        // HTMLを解析して出欠データを抽出
+        const attendanceData = parseChousesanHTML(htmlContent);
+        return attendanceData;
+        
+    } catch (error) {
+        console.error('調整さんデータの取得に失敗しました:', error);
+        showErrorMessage('調整さんからのデータ取得に失敗しました。手動で更新してください。');
+        return null;
+    } finally {
+        hideLoadingIndicator();
+    }
+}
+
+// 調整さんのHTMLを解析して出欠データを抽出
+function parseChousesanHTML(htmlContent) {
+    try {
+        // DOMParserを使用してHTMLを解析
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(htmlContent, 'text/html');
+        
+        // 出欠表のテーブルを取得
+        const table = doc.querySelector('table');
+        if (!table) {
+            throw new Error('出欠表が見つかりませんでした');
+        }
+        
+        const attendanceData = [];
+        const rows = table.querySelectorAll('tr');
+        
+        // ヘッダー行をスキップして処理
+        for (let i = 1; i < rows.length; i++) {
+            const row = rows[i];
+            const cells = row.querySelectorAll('td');
+            
+            if (cells.length >= 3) {
+                const nameCell = cells[0];
+                const name = nameCell.textContent.trim();
+                
+                // ラボツアーと同窓会の出欠状況を取得
+                const labTourStatus = cells[1] ? parseAttendanceStatus(cells[1].textContent.trim()) : 'pending';
+                const reunionStatus = cells[2] ? parseAttendanceStatus(cells[2].textContent.trim()) : 'pending';
+                
+                attendanceData.push({
+                    name: name,
+                    labTour: labTourStatus,
+                    reunion: reunionStatus
+                });
+            }
+        }
+        
+        return attendanceData;
+        
+    } catch (error) {
+        console.error('HTMLの解析に失敗しました:', error);
+        return [];
+    }
+}
+
+// 調整さんの出欠記号を内部形式に変換
+function parseAttendanceStatus(statusText) {
+    const status = statusText.toLowerCase().trim();
+    
+    if (status.includes('○') || status.includes('出席') || status.includes('参加')) {
+        return 'attending';
+    } else if (status.includes('×') || status.includes('欠席') || status.includes('不参加')) {
+        return 'absent';
+    } else if (status.includes('△') || status.includes('未定') || status.includes('保留')) {
+        return 'pending';
+    } else if (status === '' || status.includes('未回答')) {
+        return 'pending';
+    }
+    
+    return 'pending';
+}
+
+// 名前マッチング機能
+function findAlumniByName(chousesanName) {
+    // 完全一致を最優先
+    let match = alumniData.find(alumni => 
+        alumni.nameJa === chousesanName || 
+        alumni.nameEn === chousesanName
+    );
+    
+    if (match) return match;
+    
+    // 姓名の部分一致（日本語）
+    match = alumniData.find(alumni => {
+        const [familyName, givenName] = alumni.nameJa.split(' ');
+        return chousesanName.includes(familyName) || chousesanName.includes(givenName);
+    });
+    
+    if (match) return match;
+    
+    // 英語名での部分一致
+    match = alumniData.find(alumni => {
+        const [firstName, lastName] = alumni.nameEn.split(' ');
+        const lowerChousesanName = chousesanName.toLowerCase();
+        return lowerChousesanName.includes(firstName.toLowerCase()) || 
+               lowerChousesanName.includes(lastName.toLowerCase());
+    });
+    
+    return match || null;
+}
+
+// 調整さんデータを使用して出欠状況を更新
+async function updateFromChouseisan() {
+    const chousesanData = await fetchChousesanData();
+    if (!chousesanData) return;
+    
+    let updateCount = 0;
+    const updateLog = [];
+    
+    chousesanData.forEach(chousesanEntry => {
+        const alumni = findAlumniByName(chousesanEntry.name);
+        
+        if (alumni) {
+            const oldOpenlab = alumni.attendance.openlab;
+            const oldAlumni = alumni.attendance.alumni;
+            
+            // ラボツアー（オープンラボ）の出欠を更新
+            alumni.attendance.openlab = chousesanEntry.labTour;
+            // 同窓会の出欠を更新
+            alumni.attendance.alumni = chousesanEntry.reunion;
+            
+            updateLog.push({
+                name: alumni.nameJa,
+                openlab: { old: oldOpenlab, new: chousesanEntry.labTour },
+                alumni: { old: oldAlumni, new: chousesanEntry.reunion }
+            });
+            
+            updateCount++;
+        } else {
+            console.warn(`マッチする卒業生が見つかりません: ${chousesanEntry.name}`);
+        }
+    });
+    
+    // データを保存
+    saveToLocalStorage();
+    
+    // UI を更新
+    renderAlumni();
+    updateStats();
+    
+    // 更新結果を表示
+    showUpdateResults(updateCount, updateLog);
+}
+
+// 更新結果を表示
+function showUpdateResults(updateCount, updateLog) {
+    const modal = document.createElement('div');
+    modal.className = 'update-results-modal';
+    modal.innerHTML = `
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3><i class="fas fa-sync-alt"></i> 調整さん連携結果</h3>
+                <button class="modal-close" onclick="this.parentElement.parentElement.parentElement.remove()">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="update-summary">
+                    <p><strong>${updateCount}名</strong>の出欠状況を更新しました。</p>
+                </div>
+                <div class="update-details">
+                    ${updateLog.map(log => `
+                        <div class="update-item">
+                            <div class="update-name">${log.name}</div>
+                            <div class="update-changes">
+                                <div class="change-item">
+                                    <span class="change-label">ラボツアー:</span>
+                                    <span class="status-change">
+                                        <span class="status-badge status-${log.openlab.old}">${getStatusText(log.openlab.old)}</span>
+                                        <i class="fas fa-arrow-right"></i>
+                                        <span class="status-badge status-${log.openlab.new}">${getStatusText(log.openlab.new)}</span>
+                                    </span>
+                                </div>
+                                <div class="change-item">
+                                    <span class="change-label">同窓会:</span>
+                                    <span class="status-change">
+                                        <span class="status-badge status-${log.alumni.old}">${getStatusText(log.alumni.old)}</span>
+                                        <i class="fas fa-arrow-right"></i>
+                                        <span class="status-badge status-${log.alumni.new}">${getStatusText(log.alumni.new)}</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    `).join('')}
+                </div>
+            </div>
+        </div>
+    `;
+    
+    document.body.appendChild(modal);
+    
+    // 5秒後に自動で閉じる
+    setTimeout(() => {
+        if (modal.parentElement) {
+            modal.remove();
+        }
+    }, 10000);
+}
+
+// ローディングインジケーター表示
+function showLoadingIndicator(message) {
+    const indicator = document.createElement('div');
+    indicator.id = 'loading-indicator';
+    indicator.className = 'loading-indicator';
+    indicator.innerHTML = `
+        <div class="loading-content">
+            <div class="loading-spinner"></div>
+            <div class="loading-text">${message}</div>
+        </div>
+    `;
+    document.body.appendChild(indicator);
+}
+
+// ローディングインジケーター非表示
+function hideLoadingIndicator() {
+    const indicator = document.getElementById('loading-indicator');
+    if (indicator) {
+        indicator.remove();
+    }
+}
+
+// エラーメッセージ表示
+function showErrorMessage(message) {
+    const errorDiv = document.createElement('div');
+    errorDiv.className = 'error-message';
+    errorDiv.innerHTML = `
+        <div class="error-content">
+            <i class="fas fa-exclamation-triangle"></i>
+            <span>${message}</span>
+            <button onclick="this.parentElement.parentElement.remove()">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+    `;
+    document.body.appendChild(errorDiv);
+    
+    // 5秒後に自動で閉じる
+    setTimeout(() => {
+        if (errorDiv.parentElement) {
+            errorDiv.remove();
+        }
+    }, 5000);
+}
+
+// 手動データ入力機能
+function showManualDataInput() {
+    const modal = document.createElement('div');
+    modal.className = 'update-results-modal';
+    modal.innerHTML = `
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3><i class="fas fa-edit"></i> 手動データ入力</h3>
+                <button class="modal-close" onclick="this.parentElement.parentElement.parentElement.remove()">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="manual-input-info">
+                    <p>調整さんのデータを手動で入力してください。</p>
+                    <p>形式: 名前,ラボツアー出欠,同窓会出欠（1行に1人）</p>
+                    <p>出欠記号: ○=出席, ×=欠席, △=未定, 空白=未回答</p>
+                </div>
+                <textarea id="manual-data-input" placeholder="例:&#10;田中太郎,○,○&#10;佐藤花子,×,△&#10;山田次郎,,○" rows="10" style="width: 100%; margin: 1rem 0; padding: 0.75rem; border: 1px solid #ddd; border-radius: 5px; font-family: monospace;"></textarea>
+                <div class="manual-input-buttons">
+                    <button class="bulk-btn" onclick="processManualData()">
+                        <i class="fas fa-upload"></i>
+                        データを適用
+                    </button>
+                    <button class="bulk-btn" onclick="this.closest('.update-results-modal').remove()">
+                        <i class="fas fa-times"></i>
+                        キャンセル
+                    </button>
+                </div>
+            </div>
+        </div>
+    `;
+    
+    document.body.appendChild(modal);
+}
+
+// 手動入力データの処理
+function processManualData() {
+    const textarea = document.getElementById('manual-data-input');
+    const inputData = textarea.value.trim();
+    
+    if (!inputData) {
+        showErrorMessage('データが入力されていません。');
+        return;
+    }
+    
+    const lines = inputData.split('\n').filter(line => line.trim());
+    let updateCount = 0;
+    const updateLog = [];
+    
+    lines.forEach(line => {
+        const parts = line.split(',').map(part => part.trim());
+        if (parts.length >= 1) {
+            const name = parts[0];
+            const labTourStatus = parts[1] ? parseAttendanceStatus(parts[1]) : 'pending';
+            const reunionStatus = parts[2] ? parseAttendanceStatus(parts[2]) : 'pending';
+            
+            const alumni = findAlumniByName(name);
+            if (alumni) {
+                const oldOpenlab = alumni.attendance.openlab;
+                const oldAlumni = alumni.attendance.alumni;
+                
+                alumni.attendance.openlab = labTourStatus;
+                alumni.attendance.alumni = reunionStatus;
+                
+                updateLog.push({
+                    name: alumni.nameJa,
+                    openlab: { old: oldOpenlab, new: labTourStatus },
+                    alumni: { old: oldAlumni, new: reunionStatus }
+                });
+                
+                updateCount++;
+            } else {
+                console.warn(`マッチする卒業生が見つかりません: ${name}`);
+            }
+        }
+    });
+    
+    // データを保存
+    saveToLocalStorage();
+    
+    // UI を更新
+    renderAlumni();
+    updateStats();
+    
+    // モーダルを閉じる
+    document.querySelector('.update-results-modal').remove();
+    
+    // 更新結果を表示
+    showUpdateResults(updateCount, updateLog);
+}
+
+// 調整さん連携の拡張機能
+async function updateFromChousesanWithFallback() {
+    try {
+        await updateFromChouseisan();
+    } catch (error) {
+        console.error('自動取得に失敗しました:', error);
+        const confirmManual = confirm('自動取得に失敗しました。手動でデータを入力しますか？');
+        if (confirmManual) {
+            showManualDataInput();
+        }
     }
 } 
