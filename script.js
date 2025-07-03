@@ -1,5 +1,306 @@
 // 卒業生データ（画像の実際のデータを基に構造化）
 const alumniData = [
+    // 2024年度 修士課程
+    {
+        id: 30,
+        nameJa: "小野 恵太郎",
+        nameEn: "Keitaro Ono",
+        year: 2024,
+        course: "master",
+        attendance: {
+            openlab: "pending",
+            alumni: "pending"
+        }
+    },
+    {
+        id: 31,
+        nameJa: "小俣 陽紀",
+        nameEn: "Haruki Omata",
+        year: 2024,
+        course: "master",
+        attendance: {
+            openlab: "pending",
+            alumni: "pending"
+        }
+    },
+    {
+        id: 32,
+        nameJa: "川﨑 舜平",
+        nameEn: "Shunpei Kawasaki",
+        year: 2024,
+        course: "master",
+        attendance: {
+            openlab: "pending",
+            alumni: "pending"
+        }
+    },
+    {
+        id: 33,
+        nameJa: "草間 知貴",
+        nameEn: "Tomoki Kusama",
+        year: 2024,
+        course: "master",
+        attendance: {
+            openlab: "pending",
+            alumni: "pending"
+        }
+    },
+    {
+        id: 34,
+        nameJa: "済田 祥平",
+        nameEn: "Shohei Saida",
+        year: 2024,
+        course: "master",
+        attendance: {
+            openlab: "pending",
+            alumni: "pending"
+        }
+    },
+    {
+        id: 35,
+        nameJa: "田口 龍之介",
+        nameEn: "Ryunosuke Taguchi",
+        year: 2024,
+        course: "master",
+        attendance: {
+            openlab: "pending",
+            alumni: "pending"
+        }
+    },
+    {
+        id: 36,
+        nameJa: "花井 竜人",
+        nameEn: "Ryuto Hanai",
+        year: 2024,
+        course: "master",
+        attendance: {
+            openlab: "pending",
+            alumni: "pending"
+        }
+    },
+    {
+        id: 37,
+        nameJa: "蛭田 諒",
+        nameEn: "Ryo Hiruta",
+        year: 2024,
+        course: "master",
+        attendance: {
+            openlab: "pending",
+            alumni: "pending"
+        }
+    },
+    {
+        id: 38,
+        nameJa: "山田 遼",
+        nameEn: "Ryo Yamada",
+        year: 2024,
+        course: "master",
+        attendance: {
+            openlab: "pending",
+            alumni: "pending"
+        }
+    },
+    // 2024年度 学士課程
+    {
+        id: 39,
+        nameJa: "前田 空我",
+        nameEn: "Kuga Maeda",
+        year: 2024,
+        course: "bachelor",
+        attendance: {
+            openlab: "pending",
+            alumni: "pending"
+        }
+    },
+    {
+        id: 40,
+        nameJa: "照井 大晴",
+        nameEn: "Taisei Terui",
+        year: 2024,
+        course: "bachelor",
+        attendance: {
+            openlab: "pending",
+            alumni: "pending"
+        }
+    },
+    {
+        id: 41,
+        nameJa: "敏鎌 廉",
+        nameEn: "Ren Togama",
+        year: 2024,
+        course: "bachelor",
+        attendance: {
+            openlab: "pending",
+            alumni: "pending"
+        }
+    },
+    {
+        id: 42,
+        nameJa: "中山 絢太",
+        nameEn: "Kenta Nakayama",
+        year: 2024,
+        course: "bachelor",
+        attendance: {
+            openlab: "pending",
+            alumni: "pending"
+        }
+    },
+    // 2023年度 修士課程
+    {
+        id: 43,
+        nameJa: "石川 輝",
+        nameEn: "Hikaru Ishikawa",
+        year: 2023,
+        course: "master",
+        attendance: {
+            openlab: "attending",
+            alumni: "attending"
+        }
+    },
+    {
+        id: 44,
+        nameJa: "小川 泰輝",
+        nameEn: "Taiki Ogawa",
+        year: 2023,
+        course: "master",
+        attendance: {
+            openlab: "attending",
+            alumni: "pending"
+        }
+    },
+    {
+        id: 45,
+        nameJa: "近藤 亮也",
+        nameEn: "Ryoya Kondo",
+        year: 2023,
+        course: "master",
+        attendance: {
+            openlab: "attending",
+            alumni: "attending"
+        }
+    },
+    {
+        id: 46,
+        nameJa: "佐川 智輝",
+        nameEn: "Tomoki Sagawa",
+        year: 2023,
+        course: "master",
+        attendance: {
+            openlab: "pending",
+            alumni: "attending"
+        }
+    },
+    {
+        id: 47,
+        nameJa: "佐藤 陸",
+        nameEn: "Riku Sato",
+        year: 2023,
+        course: "master",
+        attendance: {
+            openlab: "attending",
+            alumni: "attending"
+        }
+    },
+    {
+        id: 48,
+        nameJa: "高本 光規",
+        nameEn: "Mituki Takamoto",
+        year: 2023,
+        course: "master",
+        attendance: {
+            openlab: "attending",
+            alumni: "absent"
+        }
+    },
+    {
+        id: 49,
+        nameJa: "吉岡 汰涼",
+        nameEn: "Taisuke Yoshioka",
+        year: 2023,
+        course: "master",
+        attendance: {
+            openlab: "absent",
+            alumni: "attending"
+        }
+    },
+    {
+        id: 50,
+        nameJa: "吉本 穣",
+        nameEn: "Minoru Yoshimoto",
+        year: 2023,
+        course: "master",
+        attendance: {
+            openlab: "attending",
+            alumni: "pending"
+        }
+    },
+    // 2023年度 学士課程
+    {
+        id: 51,
+        nameJa: "倉方 歩",
+        nameEn: "Ayumu Kurakata",
+        year: 2023,
+        course: "bachelor",
+        attendance: {
+            openlab: "pending",
+            alumni: "pending"
+        }
+    },
+    {
+        id: 52,
+        nameJa: "竹中 亮太",
+        nameEn: "Ryota Takenaka",
+        year: 2023,
+        course: "bachelor",
+        attendance: {
+            openlab: "attending",
+            alumni: "attending"
+        }
+    },
+    {
+        id: 53,
+        nameJa: "Wang Wenhe",
+        nameEn: "Wang Wenhe",
+        year: 2023,
+        course: "bachelor",
+        attendance: {
+            openlab: "pending",
+            alumni: "pending"
+        }
+    },
+    {
+        id: 54,
+        nameJa: "小笹 翔士",
+        nameEn: "Shoshi Kozasa",
+        year: 2023,
+        course: "bachelor",
+        attendance: {
+            openlab: "pending",
+            alumni: "pending"
+        }
+    },
+    {
+        id: 55,
+        nameJa: "中山 優人",
+        nameEn: "Yuto Nakayama",
+        year: 2023,
+        course: "bachelor",
+        attendance: {
+            openlab: "attending",
+            alumni: "pending"
+        }
+    },
+    {
+        id: 56,
+        nameJa: "渡邊 一帆",
+        nameEn: "Kazuho Watanabe",
+        year: 2023,
+        course: "bachelor",
+        attendance: {
+            openlab: "pending",
+            alumni: "pending"
+        }
+    },
     // 2022年度 修士課程
     {
         id: 1,
