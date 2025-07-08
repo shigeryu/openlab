@@ -297,8 +297,8 @@ const alumniData = [
         year: 2023,
         course: "bachelor",
         attendance: {
-            openlab: "attending",
-            alumni: "attending"
+            openlab: "pending",
+            alumni: "pending"
         }
     },
     {
