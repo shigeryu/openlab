@@ -141,8 +141,8 @@ const alumniData = [
         year: 2024,
         course: "bachelor",
         attendance: {
-            openlab: "pending",
-            alumni: "pending"
+            openlab: "attending",
+            alumni: "attending"
         }
     },
     // 2023年度 修士課程
@@ -635,8 +635,8 @@ const alumniData = [
         year: 2019,
         course: "bachelor",
         attendance: {
-            openlab: "pending",
-            alumni: "pending"
+            openlab: "attending",
+            alumni: "attending"
         }
     }
 ];
